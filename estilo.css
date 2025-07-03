@@ -1,0 +1,103 @@
+/* 1. Cor de fundo suave */
+body {
+    background-color: #f0f8ff; /* Azul claro suave */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.eu{border: 3px solid black;
+    width: 120px;
+    height: 200px;
+    margin: 10px;
+    left: 10px;
+    top: 10px;
+}
+
+/* 2. Estilo do título principal (h1) */
+h1 {
+    color: #4b0082; /* Roxo escuro */
+    text-align: center;
+    font-size: 2.5em;
+}
+
+/* 3. Estilo do parágrafo (p) */
+p {
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* 4. Estilo da lista não ordenada (ul) */
+ul {
+    line-height: 2; /* Espaçamento maior entre itens */
+    list-style-type: disc; /* Estilo dos marcadores */
+}
+
+/* 5. Estilo da imagem (img) */
+img {
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 100px; /* Largura fixa */
+    height: auto; /* Altura proporcional */
+    margin: 10px auto;
+}
+
+.img2{
+    width: auto;
+    height: 180px;
+    margin: 10px;
+}
+/* 6. Estilo da tabela (table) */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #4b0082;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e6e6fa;
+}
+
+/* 7. Estilo do link (a) */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4500; /* Laranja ao passar o mouse */
+    text-decoration: underline;
+}
+
+/* Estilo do botão e mensagem JavaScript */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #5d00a3;
+}
+
+#mensagem {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    color: #4b0082;
+}
